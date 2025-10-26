@@ -1,0 +1,36 @@
+body {
+  background-image: url(background.png);
+  background-repeat: repeat-x;
+  font-family: georgia;
+}
+h1 {
+  font-family: Comic Sans Ms;
+  font-size: 60px;
+  color: darkblue;
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h3 a {
+  color: red;
+}
+
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+h3 + p {
+  color: orange;
+  text-align: center;
+}
+p + p {
+  text-align: right;
+  line-height: 2;
+}
+p a {
+  color: blue;
+  font-style: oblique;
+  text-decoration: none;
+  font-weight: bold;
+}
