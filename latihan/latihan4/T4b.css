@@ -1,0 +1,320 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* style */
+body {
+  font: 16px/28px arial, sans-serif;
+  background-color: #85bbfd;
+  color: #333;
+}
+
+h2 {
+  font-family: cooper;
+  color: #85bbfd;
+  text-decoration: underline;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  background-color: #fff;
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.judul {
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header ul li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: royalblue;
+  padding: 3px;
+}
+
+.header a:hover {
+  background-color: lightskyblue;
+  border-radius: 8px;
+  color: white;
+}
+
+.hero {
+  height: 280px;
+  background-image: url(img/jebewon.jpeg);
+  background-size: cover;
+  background-position: 0 -120px;
+  border-bottom: 5px solid skyblue;
+  border-top: 5px solid skyblue;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: -5px;
+}
+
+.content .penulis a {
+  color: rgb(248, 140, 212);
+  text-decoration: none;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.foto {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.foto-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 60%;
+}
+
+.foto {
+  width: 90%;
+  height: 300px;
+  background-image: url(img/debut.jpeg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  transition: background-image 0.5s ease-in-out, transform 0.3s ease;
+  margin: 20px auto;
+}
+
+.caption {
+  font-size: 13px;
+  color: steelblue;
+  margin-top: 5px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.foto:hover {
+  background-image: url(img/now.jpeg);
+  transform: scale(1.03);
+}
+
+.slider-container {
+  text-align: center;
+  margin: 20px auto;
+  width: 85%;
+  max-width: 900px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.slider {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  background-size: cover;
+  background-position: center;
+  border: 3px solid white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.f1 {
+  background-image: url("img/hanbin.jpeg");
+}
+.f2 {
+  background-image: url("img/haoo.jpeg");
+}
+.f3 {
+  background-image: url("img/jiung.jpeg");
+}
+.f4 {
+  background-image: url("img/matchu.jpeg");
+}
+.f5 {
+  background-image: url("img/tere.jpeg");
+}
+.f6 {
+  background-image: url("img/riki.jpeg");
+}
+.f7 {
+  background-image: url("img/ubin.jpeg");
+}
+.f8 {
+  background-image: url("img/gunuk.jpeg");
+}
+.f9 {
+  background-image: url("img/ucil.jpeg");
+}
+
+.footer {
+  background-color: #333;
+  padding: 10px;
+}
+
+.footer .copy {
+  color: #eaeaea;
+  text-align: center;
+  font-size: 12px;
+}
