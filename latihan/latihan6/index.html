@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<head>
+    <title>navbar + flexbox</title>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>UWONAI WEBSITE</h4>
+        </div>
+        
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#product">Product</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#populer">populer</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Studio<span>Ghibli</span></h1>
+        <p>Yuk kenalan dengan movie yang terkenal dengan keindahannya!</p>
+        <a href="#about" class="c">Get To Know!</a>
+      </main>
+    </section>
+    
+    <div class="container1" id="about">
+        <div class="kolom-utama">
+            <h2>Studio Ghibli</h2>
+            <p>Studio Ghibli adalah studio animasi legendaris dari Jepang yang didirikan pada tahun 1985 oleh Hayao Miyazaki, Isao Takahata, dan Toshio Suzuki. Studio ini dikenal karena karya-karyanya yang penuh keajaiban, visual indah, dan cerita yang hangat serta mendalam. Film-film Ghibli biasanya digambar dengan teknik animasi tangan (hand-drawn), sehingga setiap adegan terasa hidup, detail, dan penuh nuansa. Meskipun banyak menghadirkan dunia fantasi, cerita-cerita yang dibuat Ghibli tetap terasa nyata karena menyoroti kehidupan sehari-hari, kedekatan manusia dengan alam, serta perjalanan emosional para karakter.</p>
+            <p>Beberapa film paling terkenal dari Studio Ghibli antara lain Spirited Away yang memenangkan Oscar, Howl’s Moving Castle yang romantis dan penuh sihir, My Neighbor Totoro yang hangat dan ikonik, hingga Grave of the Fireflies yang sangat menyentuh. Setiap film membawa pesan mendalam tentang keluarga, pertumbuhan, keberanian, cinta, dan hubungan manusia dengan alam. Karena kombinasi visual menakjubkan, storytelling puitis, dan musik yang emosional, Studio Ghibli menjadi salah satu studio animasi paling dicintai di dunia.</p>
+        </div>
+        <div class="sidebar-satu">
+            <h3>Favorite Character</h3>
+            <ul class="fav">
+                <li>
+                    <a href="">
+                        <img src="img/jiro.jpg">
+                    <span>Jiro Horikoshi</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/ari.jpg">
+                    <span>Arrietty Clock</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/cakep.jpg">
+                    <span>sunglasses boy</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="img/sophie.jpg">
+                    <span>Sophie Hatter</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- sevice -->
+     <div class="container2" id="product">
+        <div class="layanan satu">
+            <h4>Seni Visual Ghibli</h4>
+            <p>Sketsa Awal, Poster, dan Storyboards. Lihat bagaimana setiap adegan dan karakter lahir dari goresan tangan. Jelajahi arsip seni visual yang menakjubkan dari film-film favorit Anda.</p>
+        </div>
+        <div class="layanan dua">
+            <h4>Melodi Joe Hisaishi</h4>
+            <p>Jantung Emosional Film Ghibli. Dengarkan dan pelajari lebih lanjut tentang musik orkestra yang menghidupkan dunia Ghibli. Temukan daftar putar (playlist) soundtrack paling ikonis.</p>
+        </div>
+        <div class="layanan tiga">
+            <h4>Merchandise Eksklusif</h4>
+            <p>Koleksi Resmi untuk Penggemar Sejati. Telusuri produk-produk langka dan terbaru: dari plush toy Totoro, figur Haku, hingga pernak-pernik unik bertema film Ghibli.</p>
+        </div>
+     </div>
+
+     <!-- gallery -->
+      <div class="container3" id="gallery">
+        <div class="thumbnail">
+            <img src="img/1.jpeg">
+            <p>Whisper of the Heart</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/2.jpeg">
+            <p>Howl’s Moving Castle</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/3.jpeg">
+            <p>Ponyo</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/4.jpeg">
+            <p>The Wind Rises</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/5.jpeg">
+            <p>Kiki Delivery Service</p>
+        </div>
+        <div class="thumbnail">
+            <img src="img/6.jpeg">
+            <p>Castle in the Sky</p>
+        </div>
+      </div>
+
+      <!-- card -->
+       <div class="container-empat" id="populer">
+            <div class="card">
+                <div class="header">
+                    <video autoplay muted loop>
+                        <source src="img/ghibli.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="content">
+                    <p>Beauty of studio ghibli!</p>
+                </div>
+            </div>
+            <div class="card besar">
+                <div class="header">
+                    <video autoplay muted loop>
+                        <source src="img/howl.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="content">
+                    <p>Howl’s Moving Castle!</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="header">
+                    <video autoplay muted loop>
+                        <source src="img/studio.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="content">
+                    <p>Best ghibli movie!</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+      <div class="social">
+        <a href="https://www.instagram.com/nilrrsh/"><i data-feather="instagram"></i></a>
+        <a href="https://x.com/yanguwonie_?t=Sl3BMRszxoYuHeMuf5salw&s=08"><i data-feather="twitter"></i></a>
+        <a href="https://open.spotify.com/playlist/30t3GhhLjXYUxfoM5pmI9H?si=-YtcPNm5QvmlBPG5G9-_oQ"><i data-feather="music"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#gallery">Gallery</a>
+      </div>
+
+      <div class="credit">
+        <p>Created by <a href="">Naila R</a>. | &copy; 2025.</p>
+      </div>
+    </footer>
+
+        <script>
+        feather.replace();
+        </script>
+        <script src="script.js"></script>
+</body>
+</html>
